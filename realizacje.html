@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Realizacje | Agil Auto Serwis</title>
+
+  <meta
+    name="description"
+    content="Realizacje Agil Auto Serwis — przykładowe prace blacharsko-lakiernicze, zdjęcia przed naprawą, w trakcie pracy i po zakończeniu naprawy."
+  />
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <header class="site-header">
+    <div class="container header-container">
+      <a href="index.html" class="logo-link text-logo" aria-label="Agil Auto Serwis">
+        <span class="logo-title">AGIL AUTO SERWIS</span>
+        <span class="logo-subtitle">Blacharstwo i Lakiernictwo</span>
+      </a>
+
+      <button class="nav-toggle" type="button" aria-label="Otwórz menu" aria-expanded="false">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+      <nav class="main-nav" aria-label="Menu główne">
+        <ul>
+          <li><a href="index.html">Start</a></li>
+          <li><a href="uslugi.html">Usługi</a></li>
+          <li><a href="realizacje.html" class="active">Realizacje</a></li>
+          <li><a href="onas.html">O nas</a></li>
+          <li><a href="kontakt.html">Kontakt</a></li>
+        </ul>
+      </nav>
+
+      <a href="tel:+48577727595" class="header-cta">Zadzwoń teraz</a>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero page-hero">
+      <img
+        src="images/banner-realizacje.jpg"
+        alt="Realizacje blacharsko-lakiernicze Agil Auto Serwis"
+        class="hero-image"
+      />
+
+      <div class="hero-overlay"></div>
+
+      <div class="container hero-content">
+        <p class="hero-kicker">Agil Auto Serwis</p>
+
+        <h1>Realizacje</h1>
+
+        <h2>Zobacz przykładowe prace blacharsko-lakiernicze — od przygotowania elementów po efekt końcowy.</h2>
+      </div>
+    </section>
+
+    <section class="section realizations-page">
+      <div class="container">
+        <div class="section-heading">
+          <p class="section-kicker">Efekty pracy</p>
+          <h2>Przed, w trakcie i po naprawie</h2>
+          <p>
+            W tej sekcji pokazujemy wybrane realizacje Agil Auto Serwis:
+            naprawy blacharskie, przygotowanie elementów, lakierowanie,
+            usuwanie rdzy, polerowanie oraz efekty przed i po naprawie.
+          </p>
+          <p>
+            Najlepszym sposobem oceny pracy jest efekt końcowy. Dlatego
+            pokazujemy zdjęcia przed naprawą, w trakcie przygotowania oraz
+            po zakończeniu pracy.
+          </p>
+        </div>
+
+        <article class="case-study-card">
+          <div class="case-study-header">
+            <p class="case-study-label">REALIZACJA 1</p>
+            <h2>Naprawa blacharsko-lakiernicza</h2>
+            <p>
+              Przykład naprawy obejmującej uszkodzenia karoserii,
+              przygotowanie elementów oraz lakierowanie.
+            </p>
+          </div>
+
+          <div class="case-study-gallery">
+            <button
+              class="case-image-card"
+              type="button"
+              data-lightbox-src="images/realizacja-1-przed-collage.jpg"
+              data-lightbox-alt="Samochód przed naprawą blacharsko-lakierniczą"
+            >
+              <span class="case-image-wrap">
+                <img
+                  src="images/realizacja-1-przed-collage.jpg"
+                  alt="Samochód przed naprawą blacharsko-lakierniczą"
+                />
+              </span>
+              <span class="case-image-caption">Przed naprawą</span>
+            </button>
+
+            <button
+              class="case-image-card"
+              type="button"
+              data-lightbox-src="images/realizacja-1-proces.jpg"
+              data-lightbox-alt="Samochód w trakcie pracy blacharsko-lakierniczej"
+            >
+              <span class="case-image-wrap">
+                <img
+                  src="images/realizacja-1-proces.jpg"
+                  alt="Samochód w trakcie pracy blacharsko-lakierniczej"
+                />
+              </span>
+              <span class="case-image-caption">W trakcie pracy</span>
+            </button>
+
+            <button
+              class="case-image-card"
+              type="button"
+              data-lightbox-src="images/realizacja-1-po.jpg"
+              data-lightbox-alt="Samochód po naprawie blacharsko-lakierniczej"
+            >
+              <span class="case-image-wrap">
+                <img
+                  src="images/realizacja-1-po.jpg"
+                  alt="Samochód po naprawie blacharsko-lakierniczej"
+                />
+              </span>
+              <span class="case-image-caption">Po naprawie</span>
+            </button>
+          </div>
+
+          <p class="case-study-note">
+            Każda naprawa jest oceniana indywidualnie. Zakres prac zależy
+            od stanu pojazdu i rodzaju uszkodzenia.
+          </p>
+        </article>
+      </div>
+
+      <div class="image-lightbox" aria-hidden="true">
+        <button class="lightbox-close" type="button" aria-label="Zamknij">×</button>
+        <img class="lightbox-image" src="" alt="" />
+      </div>
+    </section>
+
+    <section class="contact-cta">
+      <div class="container contact-cta-container">
+        <div>
+          <p class="section-kicker">Wstępna wycena</p>
+          <h2>Chcesz sprawdzić, czy możemy pomóc przy Twoim aucie?</h2>
+          <p>
+            Wyślij zdjęcia uszkodzenia na WhatsApp. Wstępnie ocenimy zakres
+            pracy i ustalimy dalsze kroki.
+          </p>
+        </div>
+
+        <div class="contact-cta-actions">
+          <a
+            href="https://wa.me/48577727595"
+            class="btn btn-secondary"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Wyślij zdjęcie na WhatsApp
+          </a>
+
+          <a href="tel:+48577727595" class="btn btn-primary">Zadzwoń teraz</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div class="footer-brand">
+        <h2>AGIL AUTO SERWIS</h2>
+        <p>Blacharstwo i Lakiernictwo</p>
+        <p>
+          Profesjonalne naprawy blacharsko-lakiernicze w Mościskach,
+          w okolicach Warszawy.
+        </p>
+      </div>
+
+      <div class="footer-contact">
+        <h3>Kontakt</h3>
+        <p>
+          Telefon / WhatsApp:
+          <a href="tel:+48577727595">+48 577 727 595</a>
+        </p>
+        <p>Adres: 3 Maja 64, 05-080 Mościska</p>
+        <p>Godziny pracy: 08:00–20:00</p>
+      </div>
+
+      <div class="footer-nav">
+        <h3>Menu</h3>
+        <ul>
+          <li><a href="index.html">Start</a></li>
+          <li><a href="uslugi.html">Usługi</a></li>
+          <li><a href="realizacje.html">Realizacje</a></li>
+          <li><a href="onas.html">O nas</a></li>
+          <li><a href="kontakt.html">Kontakt</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <div class="container">
+        <p>© 2026 Agil Auto Serwis. Wszystkie prawa zastrzeżone.</p>
+      </div>
+    </div>
+  </footer>
+
+  <a href="tel:+48577727595" class="floating-call" aria-label="Zadzwoń teraz">
+    Zadzwoń teraz
+  </a>
+
+  <script src="script.js"></script>
+</body>
+</html>
